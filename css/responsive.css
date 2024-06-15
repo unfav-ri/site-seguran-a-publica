@@ -1,0 +1,104 @@
+@media (max-width: 1120px) {
+    .hero_area {
+        height: auto;
+    }
+
+    .hero_btn-box {
+        margin-bottom: 150px;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    .custom_nav-container {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 768px) {
+    .about_section .about_container .container {
+        flex-direction: column;
+    }
+
+    .about_section .about_container {
+        width: 90%;
+    }
+
+    .about_section .about_container .container>div {
+        width: 95%;
+    }
+
+    .about_section .detail a {
+        margin: 25px auto 35px auto;
+    }
+
+    .about_section .detail a {
+
+        background-color: #e92c06;
+        color: #ffffff;
+
+    }
+
+    .report_section {
+        padding: 50px 0;
+      }
+    
+      .report_section .custom_heading .custom_heading_white {
+        font-size: 30px;
+      }
+    
+      .report_section .content {
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+    
+      .report_form {
+        max-width: 90%;
+        padding: 20px;
+      }
+    
+      .report_form button {
+        padding: 12px 40px;
+      }
+    }
+
+@media (max-width: 576px) {
+    .hero_section h1 {
+        font-size: 58px;
+    }
+
+    .report_section {
+        padding: 40px 0;
+      }
+    
+      .report_section .custom_heading .custom_heading_white {
+        font-size: 26px;
+      }
+    
+      .report_section .content {
+        font-size: 12px;
+        margin-bottom: 20px;
+      }
+    
+      .report_form {
+        max-width: 100%;
+      }
+
+}
+
+@media (max-width: 480px) {
+    .hero_section h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 420px) {}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
